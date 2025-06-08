@@ -6,7 +6,7 @@ const nextConfig = {
   },
   basePath: '/Abstract-Image-Generator',
   env: {
-    BACKEND_URL: 'https://abstract-image-generator-production.up.railway.app'
+    BACKEND_URL: 'https://abstract-image-generator.onrender.com'
   },
   webpack: (config) => {
     config.resolve.alias = {
